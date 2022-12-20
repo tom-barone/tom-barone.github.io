@@ -9,7 +9,6 @@
     rgba(0, 0, 0, 1) 50%,
     rgba(0, 0, 0, 0) 100%
   );
-
   object-fit: cover;
   position: relative;
   top: 50%;
@@ -32,6 +31,7 @@
 .social-media-links a {
   color: black;
 }
+
 .social-media-links a:hover {
   color: #555;
 }
@@ -51,4 +51,16 @@
 
 .card-section p {
   font-size: 10pt;
+}
+
+.card-section {
+  & li {
+    font-size: 16px;
+
+    & img,span {
+      display: inline-block;
+      height: 14px;
+      width: 14px;
+    }
+  }
 }

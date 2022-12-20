@@ -1,24 +1,37 @@
 ---
 layout: default
+
 title: Portafoglio | Tom Barone
+
 navigation:
   home: CHI SONO
   projects: PROGETTI
   experience: ESPERIENZA
   contact: CONTATTO
+
 language_buttons:
   english: secondary button hollow
   italian: secondary button
+
 projects:
   title: Progetti
+
   jqc:
     description: Sistema di conservazione dei dati open source per
     source: Il codice sorgente
+
   airqino:
     title: Dashboard Qualità Dell'Aria
     description: Dashboard per monitorare lo stato della qualità dell’aria e analizzare dati storici con
     sensors: Sensori AirQino
     link: Vedere qui il dashboard
+
+  this:
+    title: Questo sito 🔎
+    description: Semplice e statico
+    designed: Progettato con
+    built: Costruito con
+    source: Il codice sorgente
 
 experience:
   title: Esperienza

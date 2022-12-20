@@ -26,7 +26,7 @@
     />
     <link rel="stylesheet" href="assets/css/normalize.css" />
     <link rel="stylesheet" href="assets/css/base.css" />
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
 
     <meta name="theme-color" content="#fafafa" />
   </head>
@@ -172,6 +172,49 @@
                     </div>
                   </div>
                 </div>
+                <div class="cell medium-auto">
+                  <div class="card">
+                    <div class="card-section">
+                      <h4>{{ page.projects.this.title }}</h4>
+                      <p>
+                        <br />
+                        {{ page.projects.this.description }}
+                        <br />
+                      </p>
+                      <ul>
+                        <li>
+                          <img
+                            alt="Foundation 6 icon"
+                            src="assets/img/foundation.png"
+                          />
+                          {{ page.projects.this.designed }}
+                          <a href="https://get.foundation" target="_blank"
+                            >Foundation 6</a
+                          >
+                        </li>
+                        <li>
+                          <img
+                            alt="Jekyll icon"
+                            src="assets/img/jekyllrb.ico"
+                          />
+                          {{ page.projects.this.built }}
+                          <a href="https://jekyllrb.com" target="_blank"
+                            >Jekyll</a
+                          >
+                        </li>
+                        <li>
+                          <span class="fi-social-github"></span>
+                          <a
+                            href="https://github.com/tom-barone/tom-barone.github.io"
+                            target="_blank"
+                          >
+                            {{ page.projects.this.source }}
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <br />
@@ -192,7 +235,7 @@
                 <span class="social-icons fi-social-github"></span>
               </a>
               <a
-                href="https://www.linkedin.com/in/tom-barone-b90b7813b/"
+                href="https://www.linkedin.com/in/tom-barone-b90b7813b"
                 target="_blank"
               >
                 <span class="social-icons fi-social-linkedin"></span>
