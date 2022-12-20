@@ -21,8 +21,8 @@
 email: "contact@tombarone.net"
 description: "Portfolio for Tom Barone."
 baseurl: "" # the subpath of your site, e.g. /blog
-domain: tom-barone.github.io
-url: "https://tom-barone.github.io"  # the base hostname and protocol for your site, e.g. http://example.com
+domain: www.tombarone.net
+url: "https://www.tombarone.net"  # the base hostname and protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
