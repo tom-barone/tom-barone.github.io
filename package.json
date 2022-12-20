@@ -1,0 +1,7 @@
+{
+  "name": "portfolio-site",
+  "author": "Tom Barone",
+  "devDependencies": {
+    "prettier": "^2.8.1"
+  }
+}

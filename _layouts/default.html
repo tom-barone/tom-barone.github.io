@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ page.title }}</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/css/foundation.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/img/icons/foundation-icons.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/motion-ui@1.2.3/dist/motion-ui.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <div class="off-canvas-wrapper">
+      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+        <div
+          class="off-canvas position-left reveal-for-large grid-y background-dark"
+          id="my-info"
+          data-off-canvas
+          data-position="left"
+        >
+          <h3 id="page-title" class="text-center cell shrink text-light">
+            <strong>TOM BARONE</strong>
+          </h3>
+          <div class="vertical menu align-center cell auto">
+            <ul class="side-nav navigation-links" data-smooth-scroll="true">
+              <li>
+                <a href="#home"><u>{{ page.navigation.home }}</u></a>
+              </li>
+              <li>
+                <a href="#projects"><u>{{ page.navigation.projects }}</u></a>
+              </li>
+              <li>
+                <a href="#experience"
+                  ><u>{{ page.navigation.experience }}</u></a
+                >
+              </li>
+              <li>
+                <a href="#contact"><u>{{ page.navigation.contact }}</u></a>
+              </li>
+            </ul>
+          </div>
+          <div class="cell auto shrink" style="margin-bottom: 1rem">
+            <div class="grid-x">
+              <div class="cell small-3"></div>
+              <img
+                alt="Profile photo of Tom"
+                class="cell small-6"
+                src="assets/img/profile_photo.jpg"
+                style="border-radius: 1000px; opacity: 0.7"
+              />
+              <div class="cell small-3"></div>
+            </div>
+          </div>
+
+          <div class="cell shrink" style="padding: 0 1rem">
+            <div class="button-group align-center expanded no-gaps">
+              <a class="{{page.language_buttons.english}}" href="/">EN 🇦🇺</a>
+              <a class="{{page.language_buttons.italian}}" href="it.html"
+                >IT 🇮🇹</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="off-canvas-content" data-off-canvas-content>
+          <div class="title-bar hide-for-large text-light background-dark">
+            <div class="title-bar-left">
+              <button
+                class="menu-icon"
+                type="button"
+                data-open="my-info"
+              ></button>
+              <span class="title-bar-title">TOM BARONE</span>
+            </div>
+          </div>
+
+          <img
+            alt="Large photo of Tom holding an umbrella"
+            id="home"
+            class="main-background-image"
+            src="assets/img/background_photo.jpg"
+          />
+          <br />
+          <br />
+          <div class="grid-container fluid">
+            <h3 id="projects">{{ page.projects.title }}</h3>
+            <br />
+            <div class="grid-container">
+              <div class="grid-x grid-margin-x">
+                <div class="cell medium-auto">
+                  <div class="card">
+                    <div class="card-section">
+                      <h4>JQC</h4>
+                      <a data-open="jqc_reveal">
+                        <img
+                          alt="Showcase image of JQC"
+                          class="card-image"
+                          src="assets/img/jqc_showcase.png"
+                        />
+                      </a>
+                      <p>
+                        <br />
+                        {{ page.projects.jqc.description }}
+                        <a href="https://kdcertifiers.au" target="_blank"
+                          >KD Certifiers</a
+                        >.<br />
+                      </p>
+                      <ul>
+                        <li>
+                          <span class="fi-social-github"></span>
+                          <a
+                            href="https://github.com/tom-barone/JQC"
+                            target="_blank"
+                          >
+                            {{ page.projects.jqc.source }}
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="cell medium-auto" style="display: none">
+                  <div class="card">
+                    <div class="card-section">
+                      <h4>{{ page.projects.airqino.title }}</h4>
+                      <a data-open="airqino_dashboard_reveal">
+                        <img
+                          alt="Showcase image of the AirQino dashboard"
+                          class="card-image"
+                          src="assets/img/airqino_dashboard.png"
+                        />
+                      </a>
+                      <p>
+                        <br />
+                        {{ page.projects.airqino.description }}
+                        <a href="https://airqino.quanta.it" target="_blank">
+                          {{ page.projects.airqino.sensors }}</a
+                        >.
+                      </p>
+                      <ul>
+                        <li>
+                          <a
+                            href="https://app.powerbi.com/view?r=eyJrIjoiNjkwYTM1MjMtNTdmMC00NzQwLWI0ZTYtYWNhMjM3MjMzNmM4IiwidCI6ImY3OTI2NGJmLTY1OTQtNDRmOC1hMjFkLWU3MGFkODZiZTkxNiJ9"
+                            target="_blank"
+                          >
+                            {{ page.projects.airqino.link }}
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br />
+            <h3 id="experience">{{ page.experience.title }}</h3>
+            <ul>
+              <li>{{ page.experience.point1 }}</li>
+              <li>
+                {{ page.experience.point2 }}
+                <a href="https://maxmine.com.au" target="_blank">MaxMine</a>.
+              </li>
+            </ul>
+            <p>{{ page.experience.summary }}</p>
+            <br />
+            <h3 id="contact">Contact</h3>
+            <p>{{ page.contact.sentence }} <u>{{ site.email }}</u></p>
+            <div class="social-media-links">
+              <a href="https://github.com/tom-barone" target="_blank">
+                <span class="social-icons fi-social-github"></span>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/tom-barone-b90b7813b/"
+                target="_blank"
+              >
+                <span class="social-icons fi-social-linkedin"></span>
+              </a>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modals for things like images -->
+    <div
+      class="reveal large"
+      id="airqino_dashboard_reveal"
+      data-reveal
+      data-animation-in="fade-in"
+      data-animation-out="fade-out"
+    >
+      <img
+        alt="Large showcase image of the AirQino dashboard"
+        src="assets/img/airqino_dashboard.png"
+      />
+    </div>
+    <div
+      class="reveal large"
+      id="jqc_reveal"
+      data-reveal
+      data-animation-in="fade-in"
+      data-animation-out="fade-out"
+    >
+      <img
+        alt="Large showcase image of JQC"
+        src="assets/img/jqc_showcase.png"
+      />
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.2.min.js"
+      integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/js/foundation.min.js"></script>
+    <script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID.
+    <script>
+      window.ga = function () {
+        ga.q.push(arguments);
+      };
+      ga.q = [];
+      ga.l = +new Date();
+      ga("create", "UA-XXXXX-Y", "auto");
+      ga("set", "anonymizeIp", true);
+      ga("set", "transport", "beacon");
+      ga("send", "pageview");
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script> -->
+  </body>
+</html>
