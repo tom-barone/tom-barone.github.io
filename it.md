@@ -24,7 +24,8 @@ projects:
     title: Dashboard Qualità Dell'Aria
     description: Dashboard per monitorare lo stato della qualità dell’aria e analizzare dati storici con
     sensors: Sensori AirQino
-    link: Vedere qui il dashboard
+    built: Costruito con
+#    link: Vedere qui il dashboard
 
   this:
     title: Questo sito 🔎

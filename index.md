@@ -24,7 +24,8 @@ projects:
     title: Air Pollution Dashboard
     description: Dashboard to visualise air pollution data from
     sensors: AirQino sensors
-    link: See the dashboard here
+    built: Built with
+#    link: See the dashboard here
 
   this:
     title: This site 🔎

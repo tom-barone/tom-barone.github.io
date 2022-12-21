@@ -31,6 +31,21 @@
     <meta name="theme-color" content="#fafafa" />
   </head>
 
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-D855HL6N03"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-D855HL6N03");
+  </script>
+
   <body>
     <div class="off-canvas-wrapper">
       <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
@@ -141,7 +156,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="cell medium-auto" style="display: none">
+                <div class="cell medium-auto">
                   <div class="card">
                     <div class="card-section">
                       <h4>{{ page.projects.airqino.title }}</h4>
@@ -161,13 +176,25 @@
                       </p>
                       <ul>
                         <li>
+                          <img
+                            alt="PowerBI icon"
+                            src="assets/img/power_bi.png"
+                          />
+                          {{ page.projects.airqino.built }}
+                          <a
+                            href="https://powerbi.microsoft.com"
+                            target="_blank"
+                            >PowerBI</a
+                          >
+                        </li>
+                        <!--<li>
                           <a
                             href="https://app.powerbi.com/view?r=eyJrIjoiNjkwYTM1MjMtNTdmMC00NzQwLWI0ZTYtYWNhMjM3MjMzNmM4IiwidCI6ImY3OTI2NGJmLTY1OTQtNDRmOC1hMjFkLWU3MGFkODZiZTkxNiJ9"
                             target="_blank"
                           >
                             {{ page.projects.airqino.link }}
                           </a>
-                        </li>
+                        </li>-->
                       </ul>
                     </div>
                   </div>
@@ -286,15 +313,5 @@
     <script src="assets/js/modernizr-3.11.2.min.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D855HL6N03"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-D855HL6N03');
-    </script>
   </body>
 </html>
