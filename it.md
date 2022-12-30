@@ -19,6 +19,9 @@ projects:
   jqc:
     description: Sistema di conservazione dei dati open source per
     source: Il codice sorgente
+    built: Costruito con
+    hosted: Fornito da
+    backed: Memorizzato in
 
   airqino:
     title: Dashboard Qualità Dell'Aria
@@ -39,7 +42,9 @@ experience:
   point1: 6 anni ingegneria del software commerciale.
   point2: 2 anni analisi dei big data e il miglioramento dei processi con
   summary: Perche? C'è un piacere semplice a rendere le cose efficiente.
+
 contact:
   title: Contatto
+  badge: Disponibile a lavorare
   sentence: Inviarmi una e-mail a
 ---

@@ -144,6 +144,35 @@
                       </p>
                       <ul>
                         <li>
+                          <img alt="Rails icon" src="assets/img/rails.ico" />
+                          {{ page.projects.jqc.built }}
+                          <a href="https://rubyonrails.org" target="_blank"
+                            >Rails</a
+                          >
+                        </li>
+
+                        <li>
+                          <img
+                            alt="Google Cloud icon"
+                            src="assets/img/google_cloud.png"
+                          />
+                          {{ page.projects.jqc.hosted }}
+                          <a
+                            href="https://cloud.google.com/appengine"
+                            target="_blank"
+                            >Google App Engine</a
+                          >
+                        </li>
+
+                        <li>
+                          <img alt="MySQL icon" src="assets/img/mysql.png" />
+                          {{ page.projects.jqc.backed }}
+                          <a href="https://www.mysql.com" target="_blank"
+                            >MySQL</a
+                          >
+                        </li>
+
+                        <li>
                           <span class="fi-social-github"></span>
                           <a
                             href="https://github.com/tom-barone/JQC"
@@ -256,6 +285,12 @@
             <p>{{ page.experience.summary }}</p>
             <br />
             <h3 id="contact">Contact</h3>
+            <img
+              alt="{{ page.contact.badge }}"
+              src="https://img.shields.io/badge/{{ page.contact.badge }}-428542"
+            />
+            <br />
+            <br />
             <p>{{ page.contact.sentence }} <u>{{ site.email }}</u></p>
             <div class="social-media-links">
               <a href="https://github.com/tom-barone" target="_blank">

@@ -19,6 +19,9 @@ projects:
   jqc:
     description: Open source record keeping system in use by
     source: Source code
+    built: Built with
+    hosted: Hosted on
+    backed: Backed by
 
   airqino:
     title: Air Pollution Dashboard
@@ -42,5 +45,6 @@ experience:
 
 contact:
   title: Contact
+  badge: Available for work
   sentence: Email me at
 ---
