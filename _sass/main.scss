@@ -14,12 +14,20 @@
   top: 50%;
 }
 
+.main-content {
+  min-height: 50vh;
+}
+
 .text-light {
   color: lightgray;
 }
 
 .background-dark {
   background: #2f2f2f;
+}
+
+#page-title a {
+  color: lightgray;
 }
 
 .navigation-links a {
@@ -57,10 +65,22 @@
   & li {
     font-size: 16px;
 
-    & img,span {
+    & img,
+    span {
       display: inline-block;
       height: 14px;
       width: 14px;
     }
+  }
+}
+
+.footer {
+  background-color: lightgray;
+
+  & a.footer-link {
+    display: block;
+    padding: 10px;
+    color: grey;
+    font-size: 0.7em;
   }
 }

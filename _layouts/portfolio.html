@@ -1,0 +1,161 @@
+---
+layout: default
+---
+
+<h3 id="projects">{{ page.projects.title }}</h3>
+<br />
+<div class="grid-container">
+  <div class="grid-x grid-margin-x">
+    <div class="cell medium-auto">
+      <div class="card">
+        <div class="card-section">
+          <h4>JQC</h4>
+          <a data-open="jqc_reveal">
+            <img
+              alt="Showcase image of JQC"
+              class="card-image"
+              src="assets/img/jqc_showcase.png"
+            />
+          </a>
+          <p>
+            <br />
+            {{ page.projects.jqc.description }}
+            <a href="https://kdcertifiers.au" target="_blank">KD Certifiers</a
+            >.<br />
+          </p>
+          <ul>
+            <li>
+              <img alt="Rails icon" src="assets/img/rails.ico" />
+              {{ page.projects.jqc.built }}
+              <a href="https://rubyonrails.org" target="_blank">Rails</a>
+            </li>
+
+            <li>
+              <img alt="Google Cloud icon" src="assets/img/google_cloud.png" />
+              {{ page.projects.jqc.hosted }}
+              <a href="https://cloud.google.com/appengine" target="_blank"
+                >Google App Engine</a
+              >
+            </li>
+
+            <li>
+              <img alt="MySQL icon" src="assets/img/mysql.png" />
+              {{ page.projects.jqc.backed }}
+              <a href="https://www.mysql.com" target="_blank">MySQL</a>
+            </li>
+
+            <li>
+              <span class="fi-social-github"></span>
+              <a href="https://github.com/tom-barone/JQC" target="_blank">
+                {{ page.projects.jqc.source }}
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="cell medium-auto">
+      <div class="card">
+        <div class="card-section">
+          <h4>{{ page.projects.airqino.title }}</h4>
+          <a data-open="airqino_dashboard_reveal">
+            <img
+              alt="Showcase image of the AirQino dashboard"
+              class="card-image"
+              src="assets/img/airqino_dashboard.png"
+            />
+          </a>
+          <p>
+            <br />
+            {{ page.projects.airqino.description }}
+            <a href="https://airqino.quanta.it" target="_blank">
+              {{ page.projects.airqino.sensors }}</a
+            >.
+          </p>
+          <ul>
+            <li>
+              <img alt="PowerBI icon" src="assets/img/power_bi.png" />
+              {{ page.projects.airqino.built }}
+              <a href="https://powerbi.microsoft.com" target="_blank"
+                >PowerBI</a
+              >
+            </li>
+            <!--<li>
+                  <a
+                  href="https://app.powerbi.com/view?r=eyJrIjoiNjkwYTM1MjMtNTdmMC00NzQwLWI0ZTYtYWNhMjM3MjMzNmM4IiwidCI6ImY3OTI2NGJmLTY1OTQtNDRmOC1hMjFkLWU3MGFkODZiZTkxNiJ9"
+                  target="_blank"
+                  >
+                  {{ page.projects.airqino.link }}
+                  </a>
+                  </li>-->
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="cell medium-auto">
+      <div class="card">
+        <div class="card-section">
+          <h4>{{ page.projects.this.title }}</h4>
+          <p>
+            <br />
+            {{ page.projects.this.description }}
+            <br />
+          </p>
+          <ul>
+            <li>
+              <img alt="Foundation 6 icon" src="assets/img/foundation.png" />
+              {{ page.projects.this.designed }}
+              <a href="https://get.foundation" target="_blank">Foundation 6</a>
+            </li>
+            <li>
+              <img alt="Jekyll icon" src="assets/img/jekyllrb.ico" />
+              {{ page.projects.this.built }}
+              <a href="https://jekyllrb.com" target="_blank">Jekyll</a>
+            </li>
+            <li>
+              <span class="fi-social-github"></span>
+              <a
+                href="https://github.com/tom-barone/tom-barone.github.io"
+                target="_blank"
+              >
+                {{ page.projects.this.source }}
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br />
+<h3 id="experience">{{ page.experience.title }}</h3>
+<ul>
+  <li>{{ page.experience.point1 }}</li>
+  <li>
+    {{ page.experience.point2 }}
+    <a href="https://maxmine.com.au" target="_blank">MaxMine</a>.
+  </li>
+</ul>
+<p>{{ page.experience.summary }}</p>
+<br />
+<h3 id="contact">Contact</h3>
+<img
+  alt="{{ page.contact.badge }}"
+  src="https://img.shields.io/badge/{{ page.contact.badge }}-428542"
+/>
+<br />
+<br />
+<p>{{ page.contact.sentence }} <u>{{ site.email }}</u></p>
+<div class="social-media-links">
+  <a href="https://github.com/tom-barone" target="_blank">
+    <span class="social-icons fi-social-github"></span>
+  </a>
+  <a href="https://www.linkedin.com/in/tom-barone-b90b7813b" target="_blank">
+    <span class="social-icons fi-social-linkedin"></span>
+  </a>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
