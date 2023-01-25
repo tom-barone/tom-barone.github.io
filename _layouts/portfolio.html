@@ -6,7 +6,7 @@ layout: default
 <br />
 <div class="grid-container">
   <div class="grid-x grid-margin-x">
-    <div class="cell medium-auto">
+    <div class="cell large-auto">
       <div class="card">
         <div class="card-section">
           <h4>JQC</h4>
@@ -54,7 +54,7 @@ layout: default
         </div>
       </div>
     </div>
-    <div class="cell medium-auto">
+    <div class="cell large-auto">
       <div class="card">
         <div class="card-section">
           <h4>{{ page.projects.airqino.title }}</h4>
@@ -80,19 +80,71 @@ layout: default
                 >PowerBI</a
               >
             </li>
-            <!--<li>
-                  <a
-                  href="https://app.powerbi.com/view?r=eyJrIjoiNjkwYTM1MjMtNTdmMC00NzQwLWI0ZTYtYWNhMjM3MjMzNmM4IiwidCI6ImY3OTI2NGJmLTY1OTQtNDRmOC1hMjFkLWU3MGFkODZiZTkxNiJ9"
-                  target="_blank"
-                  >
-                  {{ page.projects.airqino.link }}
-                  </a>
-                  </li>-->
+            <li>
+              <a
+                href="https://app.powerbi.com/view?r=eyJrIjoiNjkwYTM1MjMtNTdmMC00NzQwLWI0ZTYtYWNhMjM3MjMzNmM4IiwidCI6ImY3OTI2NGJmLTY1OTQtNDRmOC1hMjFkLWU3MGFkODZiZTkxNiJ9"
+                target="_blank"
+              >
+                {{ page.projects.airqino.link }}
+              </a>
+            </li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="cell medium-auto">
+  </div>
+  <div class="grid-x grid-margin-x">
+    <div class="cell large-auto">
+      <div class="card">
+        <div class="card-section">
+          <h4>{{ page.projects.attc.title }}</h4>
+
+          <a data-open="attc_reveal">
+            <img
+              alt="Showcase image of the ATTC website"
+              class="card-image"
+              src="assets/img/attc.png"
+            />
+          </a>
+          <p>
+            <br />
+            {{ page.projects.attc.description }}
+            <a href="https://www.accesstothecloud.com/" target="_blank">
+              {{ page.projects.attc.link }}</a
+            >.
+          </p>
+          <ul>
+            <li>
+              <img alt="Bootstrap icon" src="assets/img/bootstrap.png" />
+              {{ page.projects.attc.built }}
+              <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
+            </li>
+            <li>
+              <img alt="Azure icon" src="assets/img/azure.png" />
+              {{ page.projects.attc.hosted }}
+              <a href="https://azure.microsoft.com/en-au" target="_blank"
+                >Azure</a
+              >
+            </li>
+            <li>
+              <img alt="Python icon" src="assets/img/python.png" />
+              {{ page.projects.attc.powered }}
+              <a href="https://www.python.org" target="_blank">Python</a>
+            </li>
+            <li>
+              <span class="fi-social-github"></span>
+              <a
+                href="https://github.com/AccessToTheCloud/website"
+                target="_blank"
+              >
+                {{ page.projects.attc.source }}
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="cell large-auto">
       <div class="card">
         <div class="card-section">
           <h4>{{ page.projects.this.title }}</h4>
