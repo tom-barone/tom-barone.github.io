@@ -23,37 +23,105 @@ layout: default
             <a href="https://kdcertifiers.au" target="_blank">KD Certifiers</a
             >.<br />
           </p>
+          <div class="grid-x align-justify">
+            <div class="cell small-10">
+              <ul>
+                <li>
+                  <img alt="Rails icon" src="assets/img/rails.ico" />
+                  {{ page.projects.jqc.built }}
+                </li>
+                <li>
+                  <img
+                    alt="Google Cloud icon"
+                    src="assets/img/google_cloud.png"
+                  />
+                  {{ page.projects.jqc.hosted }}
+                </li>
+                <li>
+                  <img alt="MySQL icon" src="assets/img/mysql.png" />
+                  {{ page.projects.jqc.backed }}
+                </li>
+                <li>
+                  <span class="fi-social-github"></span>
+                  <a
+                    href="https://github.com/AccessToTheCloud/JQC"
+                    target="_blank"
+                  >
+                    {{ page.projects.jqc.source }}
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="cell small-2"
+              style="display: flex; justify-content: flex-end; align-items: end"
+            >
+              <img
+                alt="Dollar sign"
+                src="assets/img/dollar_sign.svg"
+                style="width: 50%; opacity: 0.3"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cell large-auto">
+      <div class="card">
+        <div class="card-section">
+          <h4>Discontent</h4>
+          <a data-open="jqc_reveal">
+            <img
+              alt="Showcase image of Discontent"
+              class="card-image"
+              src="assets/img/discontent.jpg"
+            />
+          </a>
+          <p>
+            <br />
+            {{ page.projects.discontent.description }}
+            <a
+              href="https://chrome.google.com/webstore/detail/discontent/kglbdhongcfkafgfgofpgaehafnbgnhd"
+              target="_blank"
+              >Chrome</a
+            >
+            |
+            <a
+              href="https://addons.mozilla.org/firefox/addon/discontent/"
+              target="_blank"
+              >Firefox</a
+            ><br />
+          </p>
           <ul>
             <li>
-              <img alt="Rails icon" src="assets/img/rails.ico" />
-              {{ page.projects.jqc.built }}
-              <a href="https://rubyonrails.org" target="_blank">Rails</a>
+              <img alt="Typescript icon" src="assets/img/typescript.png" />
+              {{ page.projects.discontent.built }}
             </li>
-
             <li>
-              <img alt="Google Cloud icon" src="assets/img/google_cloud.png" />
-              {{ page.projects.jqc.hosted }}
-              <a href="https://cloud.google.com/appengine" target="_blank"
-                >Google App Engine</a
-              >
+              <img alt="Rust icon" src="assets/img/rust.png" />
+              {{ page.projects.discontent.backed }}
             </li>
-
             <li>
-              <img alt="MySQL icon" src="assets/img/mysql.png" />
-              {{ page.projects.jqc.backed }}
-              <a href="https://www.mysql.com" target="_blank">MySQL</a>
+              <img alt="AWS icon" src="assets/img/aws.jpg" />
+              {{ page.projects.discontent.hosted }}
             </li>
-
             <li>
               <span class="fi-social-github"></span>
-              <a href="https://github.com/AccessToTheCloud/JQC" target="_blank">
-                {{ page.projects.jqc.source }}
+              <a
+                href="https://github.com/tom-barone/Discontent"
+                target="_blank"
+              >
+                {{ page.projects.discontent.source }}
               </a>
             </li>
           </ul>
         </div>
       </div>
     </div>
+  </div>
+
+  <div class="grid-x grid-margin-x">
     <div class="cell large-auto">
       <div class="card">
         <div class="card-section">
@@ -72,33 +140,74 @@ layout: default
               {{ page.projects.airqino.sensors }}</a
             >.
           </p>
-          <ul>
-            <li>
-              <img alt="PowerBI icon" src="assets/img/power_bi.png" />
-              {{ page.projects.airqino.built }}
-              <a href="https://powerbi.microsoft.com" target="_blank"
-                >PowerBI</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://app.powerbi.com/view?r=eyJrIjoiNjkwYTM1MjMtNTdmMC00NzQwLWI0ZTYtYWNhMjM3MjMzNmM4IiwidCI6ImY3OTI2NGJmLTY1OTQtNDRmOC1hMjFkLWU3MGFkODZiZTkxNiJ9"
-                target="_blank"
-              >
-                {{ page.projects.airqino.link }}
-              </a>
-            </li>
-          </ul>
+          <div class="grid-x align-justify">
+            <div class="cell small-10">
+              <ul>
+                <li>
+                  <img alt="PowerBI icon" src="assets/img/power_bi.png" />
+                  {{ page.projects.airqino.built }}
+                </li>
+                <li>
+                  {{ page.projects.airqino.link }}
+                  <a href="https://airq-dash.com/arezzo" target="_blank"
+                    >Arezzo</a
+                  >
+                  |
+                  <a href="https://airq-dash.com/bollate" target="_blank"
+                    >Bollate</a
+                  >
+                  |
+                  <a
+                    href="https://airq-dash.com/odm-isde-firenze"
+                    target="_blank"
+                    >ISDE Ordine dei Medici</a
+                  >
+                  |
+                  <a
+                    href="https://airq-dash.com/us-sales-volley-firenze"
+                    target="_blank"
+                    >U.S. Sales Volley</a
+                  >
+                  |
+                  <a href="https://airq-dash.com/lavagno" target="_blank"
+                    >Lavagno</a
+                  >
+                  |
+                  <a
+                    href="https://airq-dash.com/civitella-val-di-chiana"
+                    target="_blank"
+                    >Civitella Val di Chiana</a
+                  >
+                  |
+                  <a href="https://airq-dash.com/firenzuola" target="_blank"
+                    >Firenzuola</a
+                  >
+                  |
+                  <a href="https://airq-dash.com/noicattaro" target="_blank"
+                    >Noicattaro</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div
+              class="cell small-2"
+              style="display: flex; justify-content: flex-end; align-items: end"
+            >
+              <img
+                alt="Dollar sign"
+                src="assets/img/dollar_sign.svg"
+                style="width: 50%; opacity: 0.3"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="grid-x grid-margin-x">
+
     <div class="cell large-auto">
       <div class="card">
         <div class="card-section">
           <h4>{{ page.projects.attc.title }}</h4>
-
           <a data-open="attc_reveal">
             <img
               alt="Showcase image of the ATTC website"
@@ -117,19 +226,14 @@ layout: default
             <li>
               <img alt="Bootstrap icon" src="assets/img/bootstrap.png" />
               {{ page.projects.attc.built }}
-              <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
             </li>
             <li>
               <img alt="Azure icon" src="assets/img/azure.png" />
               {{ page.projects.attc.hosted }}
-              <a href="https://azure.microsoft.com/en-au" target="_blank"
-                >Azure</a
-              >
             </li>
             <li>
               <img alt="Python icon" src="assets/img/python.png" />
               {{ page.projects.attc.powered }}
-              <a href="https://www.python.org" target="_blank">Python</a>
             </li>
             <li>
               <span class="fi-social-github"></span>
@@ -144,6 +248,9 @@ layout: default
         </div>
       </div>
     </div>
+  </div>
+
+  <div class="grid-x grid-margin-x">
     <div class="cell large-auto">
       <div class="card">
         <div class="card-section">
@@ -157,12 +264,10 @@ layout: default
             <li>
               <img alt="Foundation 6 icon" src="assets/img/foundation.png" />
               {{ page.projects.this.designed }}
-              <a href="https://get.foundation" target="_blank">Foundation 6</a>
             </li>
             <li>
               <img alt="Jekyll icon" src="assets/img/jekyllrb.ico" />
               {{ page.projects.this.built }}
-              <a href="https://jekyllrb.com" target="_blank">Jekyll</a>
             </li>
             <li>
               <span class="fi-social-github"></span>
@@ -177,8 +282,19 @@ layout: default
         </div>
       </div>
     </div>
+
+    <div class="cell large-auto"></div>
   </div>
 </div>
+<br />
+<p>
+  <img
+    alt="Dollar sign"
+    src="assets/img/dollar_sign.svg"
+    style="height: 30px; opacity: 0.3"
+  />
+  {{ page.paid_work }}
+</p>
 <br />
 <h3 id="experience">{{ page.experience.title }}</h3>
 <ul>
