@@ -71,7 +71,7 @@ layout: default
       <div class="card">
         <div class="card-section">
           <h4>Discontent</h4>
-          <a data-open="jqc_reveal">
+          <a data-open="discontent_reveal">
             <img
               alt="Showcase image of Discontent"
               class="card-image"
@@ -147,46 +147,6 @@ layout: default
                   <img alt="PowerBI icon" src="assets/img/power_bi.png" />
                   {{ page.projects.airqino.built }}
                 </li>
-                <li>
-                  {{ page.projects.airqino.link }}
-                  <a href="https://airq-dash.com/arezzo" target="_blank"
-                    >Arezzo</a
-                  >
-                  |
-                  <a href="https://airq-dash.com/bollate" target="_blank"
-                    >Bollate</a
-                  >
-                  |
-                  <a
-                    href="https://airq-dash.com/odm-isde-firenze"
-                    target="_blank"
-                    >ISDE Ordine dei Medici</a
-                  >
-                  |
-                  <a
-                    href="https://airq-dash.com/us-sales-volley-firenze"
-                    target="_blank"
-                    >U.S. Sales Volley</a
-                  >
-                  |
-                  <a href="https://airq-dash.com/lavagno" target="_blank"
-                    >Lavagno</a
-                  >
-                  |
-                  <a
-                    href="https://airq-dash.com/civitella-val-di-chiana"
-                    target="_blank"
-                    >Civitella Val di Chiana</a
-                  >
-                  |
-                  <a href="https://airq-dash.com/firenzuola" target="_blank"
-                    >Firenzuola</a
-                  >
-                  |
-                  <a href="https://airq-dash.com/noicattaro" target="_blank"
-                    >Noicattaro</a
-                  >
-                </li>
               </ul>
             </div>
             <div
@@ -204,53 +164,7 @@ layout: default
       </div>
     </div>
 
-    <div class="cell large-auto">
-      <div class="card">
-        <div class="card-section">
-          <h4>{{ page.projects.attc.title }}</h4>
-          <a data-open="attc_reveal">
-            <img
-              alt="Showcase image of the ATTC website"
-              class="card-image"
-              src="assets/img/attc.png"
-            />
-          </a>
-          <p>
-            <br />
-            {{ page.projects.attc.description }}
-            <a href="https://www.accesstothecloud.com/" target="_blank">
-              {{ page.projects.attc.link }}</a
-            >.
-          </p>
-          <ul>
-            <li>
-              <img alt="Bootstrap icon" src="assets/img/bootstrap.png" />
-              {{ page.projects.attc.built }}
-            </li>
-            <li>
-              <img alt="Azure icon" src="assets/img/azure.png" />
-              {{ page.projects.attc.hosted }}
-            </li>
-            <li>
-              <img alt="Python icon" src="assets/img/python.png" />
-              {{ page.projects.attc.powered }}
-            </li>
-            <li>
-              <span class="fi-social-github"></span>
-              <a
-                href="https://github.com/AccessToTheCloud/website"
-                target="_blank"
-              >
-                {{ page.projects.attc.source }}
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <div class="grid-x grid-margin-x">
     <div class="cell large-auto">
       <div class="card">
         <div class="card-section">
@@ -282,8 +196,6 @@ layout: default
         </div>
       </div>
     </div>
-
-    <div class="cell large-auto"></div>
   </div>
 </div>
 <br />
@@ -301,18 +213,11 @@ layout: default
   <li>{{ page.experience.point1 }}</li>
   <li>
     {{ page.experience.point2 }}
-    <a href="https://maxmine.com.au" target="_blank">MaxMine</a>.
   </li>
 </ul>
 <p>{{ page.experience.summary }}</p>
 <br />
 <h3 id="contact">Contact</h3>
-<img
-  alt="{{ page.contact.badge }}"
-  src="https://img.shields.io/badge/{{ page.contact.badge }}-428542"
-/>
-<br />
-<br />
 <p>{{ page.contact.sentence }} <u>{{ site.email }}</u></p>
 <div class="social-media-links">
   <a href="https://github.com/tom-barone" target="_blank">
